@@ -1,5 +1,6 @@
-Hello world;
-MY NAME IS VALENTINE EZENWELU GREG;
-I AM AN ASPIRING COMPUTER SCIENTIST AND GAME DEVELOPER AT THE UNIVERITY OF MANITOBA CANADA;
-YOU CAN FIND SOME OF MY WORKS HERE;
-AND YOU CAN CONTACT ME WITH gregezenwelu@gmail.com;
+- 👋 Hi, I’m ValentineEzenwelu;
+- 👀 I’m an aspiring  game developer, web developer, software programmer; 
+- 🌱 I’m currently learning Java, Java Processing and python;
+-    I attend the University of Manitoba, Canada as a computer scince student;
+- 💞️ I’m looking to collaborate on building websites, software and starters game;.
+- 📫 How to reach me gregezenwelu@gmail.com;
