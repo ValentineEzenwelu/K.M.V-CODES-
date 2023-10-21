@@ -1,6 +1,6 @@
 - 👋 Hi, I’m ValentineEzenwelu;
 - 👀 I’m an aspiring  game developer, web developer, software programmer; 
 - 🌱 I’m currently learning Java, Java Processing and python;
--    I attend the University of Manitoba, Canada as a computer scince student;
+-    I attend the University of Manitoba, Canada as a computer science student;
 - 💞️ I’m looking to collaborate on building websites, software and starters game;.
 - 📫 How to reach me gregezenwelu@gmail.com;
