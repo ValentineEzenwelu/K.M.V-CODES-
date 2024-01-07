@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+  <title>Valentine</title>
+  <style>
+    body {
+      text-align: center;
+      background: url(https://t4.ftcdn.net/jpg/02/68/80/71/360_F_268807166_oPVMMlJcxy4OjBDkl9JPxqfJeMC98yNm.jpg);
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://imgur.com/mkxvMZl.png", height=210, width=190>
+  <p>Hi! I'm Valentine, a student at the University of Manitoba. Say hi!</p>
+  <input type="email" placeholder="Your email">
+  <input type="submit">
+</body>
