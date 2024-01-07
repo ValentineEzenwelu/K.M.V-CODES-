@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>
+<script src="/assets/jquery.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Sevillana&display=swap" rel="stylesheet">
+<style>
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #232323;
+}
+div {
+  height: 200px;
+  width: 270px;
+  position: relative;
+  margin: 40px 0  0;
+  border-radius: 12px;
+}
+h1 {
+  font-family: 'Sevillana', cursive;
+  text-align: center;
+  font-size: 75px;
+  color: #aaaaaa;
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: #bbbbbb;
+  margin: 0px 0 70px 0;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZyfOo3Eo0OAWSxMfIrE8LicSY4Cc_LOH2Kw&usqp=CAU);
+}
+.second{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYC5iG2fFotnt-M_SyEOq7tiCKsiqtpw4fqw&usqp=CAU);
+}
+.dessert{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY9oEO3xUKWY7QFlTIlleM6JWikkx_w9RTSw&usqp=CAU);
+}
+.price {
+  float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+</style>
+
+</head>
+
+<body>
+<h1>Valentine's Apparel.</h1>
+<h2>Home of basketball style.</h2>
+<div class="first">
+  <p>Nike Retro 1 <span class="price">$60</span><br />
+  <small> Michael Jordan retro 1. Black and Red edition. Brand new! on sell for 40% off. </small></p>
+</div>
+
+<div class="second">
+  <p>Nike Retro 1  <span class="price">$80</span><br />
+  <small>Michael Jordan retro 1. White and Red edition. Brand new! on sell for 20% off</small></p>
+</div>
+  
+<div class="dessert">
+  <p> Nike Retro 1<span class="price">$50</span><br />
+  <small>Michael Jordan retro 1. Blue and White edition. Brand new! on sell for 50% off</small></p>
+</div>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
