@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url(https://t4.ftcdn.net/jpg/02/68/80/71/360_F_268807166_oPVMMlJcxy4OjBDkl9JPxqfJeMC98yNm.jpg);
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://imgur.com/mkxvMZl.png", height=210, width=190>
+    <h1>Valentine's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Best codes</a></li>
+      <li><a href="#">Worst codes</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Doddle Jump</h2>
+    <p>Made a game using Java Processing. In this game there is a character called doddle and it jumps through moving blocks inorder to increase points and get to the top into a new level. </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Snake and Apple</h2>
+    <p>This game is widely known especially by older generations that used button phones. I recreated it using Java Processing and it follows the same principles as the original one.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>PingPong</h2>
+    <p>Made a recreation of the PingPong game using Java Processing which follows the same principles as the original PingPong game.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
